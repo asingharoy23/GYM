@@ -1,0 +1,198 @@
+@media only screen and (max-width: 990px) {
+    html {
+        font-size: 9.24px;
+    }
+
+    .section-banner {
+        text-align: center;
+    }
+
+    .section-banner .ban-butn {
+        margin-bottom: 60px;
+    }
+
+    .ban-form-box {
+        margin: 0 auto;
+    }
+
+    .banner-content {
+        padding: 0 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html {
+        font-size: 8.07px;
+    }
+
+    .section {
+        padding: 30px 0;
+    }
+
+    .section-banner {
+        text-align: center;
+    }
+
+    .section-title {
+        margin-bottom: 30px;
+    }
+
+    .row {
+        padding: 0;
+        margin: 0;
+    }
+
+    /* ========================================================= HEADER START ======== */
+    .site-header .mobile-btn {
+        display: none;
+    }
+
+    header.site-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        width: 100%;
+        background-color: #cac8c860;
+        -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu-main {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(10, 9, 9, 0.95);
+        left: 0;
+        top: 0;
+        z-index: 1;
+        padding-top: 50px;
+        display: none;
+    }
+
+    .close-menu {
+        display: block;
+    }
+
+    ul.menu-name {
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul.menu-name>li {
+        margin-left: 0px;
+    }
+
+    ul.menu-name>li>a {
+        padding: 15px 20px;
+        width: 100%;
+        display: block;
+        text-align: center;
+        border-left: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .nav-menu i {
+        color: #fff;
+    }
+
+    .nav-menu i:hover {
+        color: #4CAF50;
+    }
+
+    .nav-logo {
+        display: none;
+    }
+
+    ul.menu-name>li:hover .dropdown-menu {
+        background-color: transparent;
+        color: #fff;
+    }
+
+    .dropdown-menu {
+        padding-top: 10px;
+        position: absolute;
+        z-index: 2;
+        top: 100%;
+        right: 0;
+        background-color: transparent;
+        border: transparent;
+        left: 50%;
+        transform: translateX(-50%);
+        display: none;
+
+    }
+
+    .dropdown-menu:after {
+        content: "";
+        width: 0;
+        height: 0;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 8px solid red;
+        position: absolute;
+        top: 2px;
+        right: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* ------------------------------------------------ p1s1 */
+    .item-p1s1 .item-main .content-wrap {
+        min-height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .item-p1s1 .item-main .content-wrap>h4,
+    .item-p1s1 .butn-wrap {
+        display: none;
+    }
+
+    /* ------------------------------------------------ p1s2*/
+    /* ------------------------------------------------ p1s5 */
+    .parent {
+        --grid_gap: 1.5rem;
+        --grid_col: 1;
+        --grid_height: 300px;
+        display: grid;
+        grid-template-columns: repeat(var(--grid_col), 1fr);
+        grid-template-rows: auto;
+        gap: var(--grid_gap);
+    }
+
+    /* ------------------------------------------------ p1s6 */
+    .p1s6-form {
+        display: flex;
+        flex-direction: column;
+        padding-top: 25px;
+        width: 100%;
+
+    }
+
+    .grid-item-main .content {
+        color: #f0e3e3;
+        z-index: 1;
+        position: relative;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 100%;
+        width: 100%;
+        transition: all 0.3s ease-in-out;
+    }
+
+    /* ------------------------------------------------ footer*/
+    .footer-main-item {
+        margin-top: 30px;
+    }
+
+
+}
